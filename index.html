@@ -73,7 +73,7 @@ section{padding:clamp(64px,8vw,104px) 0;position:relative}
 .hero h1 .line:nth-child(2) > span{animation-delay:.14s}
 .hero h1 .line:nth-child(3) > span{animation-delay:.28s}
 .hero h1 b{font-weight:700;color:var(--gold)}
-.hero h1 .out{color:transparent;-webkit-text-stroke:2px #fff}
+.hero h1 .out{color:#fff}
 @keyframes rise{to{transform:none}}
 .hero p.sub{max-width:50ch;font-size:1.14rem;color:rgba(255,255,255,.84)}
 .fade-up{opacity:0;transform:translateY(24px);animation:fadeUp 1s var(--ease) forwards}
@@ -156,7 +156,7 @@ form .btn{width:100%}
 .big-marquee{padding:20px 0;background:var(--navy);overflow:hidden}
 .track{display:flex;width:max-content;animation:scrollx 55s linear infinite}
 .track span{font-family:var(--display);font-weight:700;font-size:clamp(2rem,4.4vw,3.6rem);line-height:1;text-transform:uppercase;padding:6px 24px 0;white-space:nowrap;display:flex;align-items:center;gap:48px;color:var(--gold)}
-.track span:nth-child(even){color:transparent;-webkit-text-stroke:1.4px rgba(255,255,255,.7)}
+.track span:nth-child(even){color:#fff}
 .track span::after{content:"";width:14px;height:14px;background:var(--gold);transform:rotate(45deg);flex:none}
 @keyframes scrollx{to{transform:translateX(-50%)}}
 
@@ -201,7 +201,6 @@ body{padding-bottom:0}
   .trust .wrap{grid-template-columns:1fr}
   .trust .p{border-left:0;border-top:2px solid rgba(11,34,71,.25);padding:12px 0}
   .card{padding:22px}.card::before{display:none}
-  .hero h1 .out{-webkit-text-stroke-width:1.4px}
   .sticky span{display:none}
   .duo .wipe:nth-child(2){margin-top:34px}
 }
