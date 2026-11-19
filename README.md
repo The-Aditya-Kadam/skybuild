@@ -1,2 +1,2 @@
 # skybuild
-A Landing page
+Landing page
